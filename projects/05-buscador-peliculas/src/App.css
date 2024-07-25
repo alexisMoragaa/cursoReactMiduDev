@@ -1,0 +1,43 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form input{
+  min-width: 300px;
+}
+
+header{
+  width: 100%;
+}
+
+.movies{
+  list-style: none;
+  margin: 0px;
+  margin-top: 2rem;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.3rem;
+  width: 100%;
+}
+
+.movie h3, .movie p{
+  margin: 0px;
+}
+
